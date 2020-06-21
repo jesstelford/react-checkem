@@ -1,7 +1,7 @@
 {
   "name": "react-checkem",
   "description": "Simple 'Select All' for checkboxes in React",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "source": "src/index.js",
   "main": "dist/react-checkem.js",
   "module": "dist/react-checkem.module.js",
