@@ -1,0 +1,54 @@
+{
+  "name": "react-checkem",
+  "description": "The simplest Select All component you'll ever use!",
+  "version": "1.1.1",
+  "source": "src/index.js",
+  "main": "dist/react-checkem.js",
+  "module": "dist/react-checkem.module.js",
+  "unpkg": "dist/react-checkem.umd.js",
+  "scripts": {
+    "build": "microbundle --jsx React.createElement",
+    "dev": "microbundle watch",
+    "test": "jest --silent",
+    "lint:eslint": "eslint ./src",
+    "lint:prettier": "prettier --list-different \"src/*.js\"",
+    "lint": "yarn lint:prettier && yarn lint:eslint",
+    "prepublishOnly": "yarn build"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/jesstelford/react-checkem.git",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@changesets/cli": "^2.8.0",
+    "@testing-library/jest-dom": "^5.10.1",
+    "@testing-library/react": "^10.2.1",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.0.1",
+    "eslint": "^7.2.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jest": "^23.13.2",
+    "eslint-plugin-markdown": "^2.0.0-alpha.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.4",
+    "jest": "^26.0.1",
+    "microbundle": "^0.12.0",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "prettier": {
+    "proseWrap": "preserve",
+    "singleQuote": true,
+    "trailingComma": "es5",
+    "arrowParens": "always"
+  }
+}
