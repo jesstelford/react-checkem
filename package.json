@@ -1,7 +1,7 @@
 {
   "name": "react-checkem",
-  "description": "The simplest Select All component you'll ever use!",
-  "version": "1.1.1",
+  "description": "Simple 'Select All' for checkboxes in React",
+  "version": "0.0.0",
   "source": "src/index.js",
   "main": "dist/react-checkem.js",
   "module": "dist/react-checkem.module.js",
@@ -20,7 +20,10 @@
   "publishConfig": {
     "access": "public"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-list-provider": "^1.1.1",
+    "tiny-invariant": "^1.1.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.10.2",
     "@babel/preset-env": "^7.10.2",
